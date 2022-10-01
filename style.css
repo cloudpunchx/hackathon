@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    display: grid;
+    grid-template-columns:125px 2fr 1fr;
+    font-size: 10pt;
+    background-color: black;
+}
+
+#logo{
+    height: 80px; 
+    margin-left: 30px;
+}
+
+#links{
+    justify-self: left;
+    align-self: center;
+    
+    
+    }
+a{
+    text-decoration: none;
+    margin: 6px;
+}    
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#rightside{
+    justify-self: end;
+    align-self: center;
+}
+
+#img{
+    height: 30px;
+    margin: 5px;
+}
+
+.tvStills:hover{
+    transform: scale(1.5);
+}
+
+#strangerThings{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#strangerThingsInfo{
+    width: 45%;
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    background-color: rgba(49, 49, 49, 0.527);
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border-radius: 5px;
+}
+
+#strangerThingsInfo h1{
+    margin-bottom: 10px;
+}
+
+#strangerThingsInfo p{
+    font-size: 1.2rem;
+}
+
+button{
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#button2{
+    background-color: rgb(73, 73, 73);
+    color: white;
+    margin-left: 7px;
+}
+
+.scroller{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: min-content;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+    column-gap: 0px;
+    margin: 0;
+}
+
+.tvStills{
+    width: 105%;
+    height: 100%;
+    display: grid;
+    border-radius: 4px;
+}
+
+h3{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    color: white;
+}
+
+footer{
+    margin-top: 20px;
+    column-width: 30px;
+    margin-left: 43%;
+    
+}
+#media{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    justify-self: left;
+}
+
+#help{
+    display: grid;
+    font-size: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 80px; 
+    margin-left: 30px;
+    text-align: center;
+}
+
+#service{
+    background-color: rgb(32, 30, 30);
+    font-size: 12px;
+    border: 1px solid white;
+    color:white;
+    margin-left: 47%;
+    }
+
+p{
+    font-size: 0.7em;
+    font-style: italic;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/*1400*/
+
+@media only screen and (min-width: 1400px){
+
+.tvStills{
+    width: 102%;
+    height: 100%;
+    display: grid;
+    border-radius: 4px;
+}
+
+#service{
+    font-size: 1em;
+    margin-left: 45%;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+h3{
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+}
+
+
